@@ -14,11 +14,11 @@ class mango{
     display(){
         var pos=this.body.position;
         //push();
-		//translate(pos.x, pos.y);
-		//rotate(this.body.angle);
-		fill(255,0,255);
-		imageMode(CENTER);
-		//image(this.image, 0,0,this.r*2, this.r*2);        
+	//translate(pos.x, pos.y);
+	//rotate(this.body.angle);
+	fill(255,0,255);
+	imageMode(CENTER);
+	//image(this.image, 0,0,this.r*2, this.r*2);        
         image(this.image,pos.x,pos.y,this.r*2,this.r*2);
         //pop();
     }
